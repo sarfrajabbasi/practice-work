@@ -1,4 +1,4 @@
-const GetRandomColor = ()=>`#${(Math.random()*0xFFFFFF << 0).toString(16).padStart(6,"0")}`;
+ const GetRandomColor = ()=>`#${(Math.random()*0xFFFFFF << 0).toString(16).padStart(6,"0")}`;
 
 // create random size for circle
 const getRandomSize = (max,min)=> Math.random()*(max-min)+min;
@@ -45,4 +45,6 @@ document.body.addEventListener('click',(e)=>{
     // now append with body
     document.body.appendChild(currentCircle)
 })
+
+ 
 
